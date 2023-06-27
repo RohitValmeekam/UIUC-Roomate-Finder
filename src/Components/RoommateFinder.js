@@ -11,7 +11,7 @@ export default function RoommateFinder(props) {
       setSubmit(false) // Don't submit if either value is empty
     } else {
       setSubmit(true)
-      navigate("/home");
+      navigate("/posts");
     }
   };
 

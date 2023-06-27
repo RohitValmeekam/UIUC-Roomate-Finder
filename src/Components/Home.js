@@ -5,7 +5,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate("/home");
+    navigate("/posts");
   }
 
   return (

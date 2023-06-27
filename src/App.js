@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/home"
+          path="/posts"
           element={
             <div className="app">
               <Navbar toggleFilter={toggleFilter} gender={gender} setGender={setGender}  smokingPreference={smokingPreference} setSmokingPreference={setSmokingPreference} />
